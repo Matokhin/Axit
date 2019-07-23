@@ -1,0 +1,231 @@
+@media (max-width: 1130px) {
+	
+	.options-item{
+	margin-right: 10px;
+	
+	}
+	
+	.form {
+		flex-wrap: wrap;
+	}
+
+	.input-bottom {
+	width: 525px;
+	margin-left: 10px;
+	}
+}
+
+
+
+
+@media (max-width: 991px) {
+	
+	
+ 
+	.reviews {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.tab-text {
+		margin-left: 10px;
+	}
+
+
+}
+
+	.download-white {
+	margin-left: 43%;
+
+	
+	}
+
+@media (max-width: 830px) {
+	.img-1 {
+		display: none;
+	}
+}
+
+@media (max-width: 768px) {
+
+	//Intro
+
+	.intro {
+		height: 1100px;
+	}
+
+	.intro-main {
+	margin-top: 70px;
+}
+	.menu {
+		display: none;
+		position: absolute;
+		top: 67px;
+		width: 100%;
+		text-align: right;
+		right: 0;
+		flex-direction: column;
+		background-color: #000;	
+	}
+
+	.menu.show {
+		display: flex;
+			
+		}
+
+	.menu-item {
+		padding: 10px 15px;
+	}
+
+	.burger {
+		display: block;
+		
+	}
+
+	
+	.intro-main {
+		display: flex;
+		flex-wrap: wrap;
+		text-align: center;
+	} 
+
+	.title-intro:after {
+	display: none;
+	
+	}
+
+	.about-intro {
+		width: 1000px;
+	}
+
+	.download {
+		margin-bottom: 50px;
+	}
+
+	.register {
+		margin: 0 auto;
+	}
+
+	.input {
+		margin-left: 0;
+	}
+
+	//Tabs
+	.tab {
+		padding: 0;
+	}
+	.buttons {
+		margin-right: 20px;
+	}
+
+	
+
+	.tab {
+		text-align: center;
+		margin: 20px;
+	}
+	
+	.download-col {
+		margin: 0 auto;
+	}
+
+
+	//sub-list
+	.sub-list {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.info-right {
+		order: 1;
+		margin-left: 0;
+	}
+
+	.img-left {
+		order: 2;
+	}
+
+
+	//Standart picture
+	.standart-pic {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	
+
+	.input-bottom {
+		width: 300px;
+	}
+
+	.options {
+		display: block;
+		
+	}
+
+	 .options-item{
+	
+		max-width: 100vw;
+		margin-bottom: 20px;
+	}
+
+
+	.download-white {
+	margin-left: 39%;
+
+	
+	}
+
+
+}
+
+
+
+
+
+
+@media (max-width: 480px) {
+	
+
+	.input {
+		width: 230px;
+	}
+
+	.btn-register {
+		margin-top: 6px;
+	}
+	
+	.review-item {
+		margin: 0 auto;
+	}
+
+	.register {
+		height: 300px;
+		width: 300px;
+	}
+
+	.features {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.tabs {
+		display: flex;
+		margin-left: -30px;
+	}
+
+
+	
+	.advantages {
+
+	display: block;
+
+	}
+
+	.download-white {
+	margin-left: 36%;
+
+	
+	}
+
+
+}

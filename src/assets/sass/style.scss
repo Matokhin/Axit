@@ -1,0 +1,36 @@
+@import "vars.scss";
+
+
+html, body {
+    height: 100%;
+    font-size: 15px;
+}
+
+body {
+	margin: 0;
+	font-family: arial, regular;
+	font-size: 14px;
+	line-height: 1.4;
+	color: $gray;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+
+@import "blocks/header.scss";
+@import "blocks/intro.scss";
+@import "blocks/main.scss";
+@import "blocks/media.scss";
+
+
+
+
+
+
+
+
+
